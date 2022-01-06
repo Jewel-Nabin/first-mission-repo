@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.first-section {
+    margin: 10%;
+}
+
+.first-container {
+    display: flex;
+}
+
+.first-left-side {
+    width: 50%;
+}
+
+.first-right-side {
+    width: 50%;
+}
+
+.first-right-side img {
+    width: 100%;
+    padding-left: 150px;
+}
+
+
+.first-section h1 {
+    border-left: 5px solid orange;
+    font-size: 4.5rem;
+    line-height: 80px;
+    padding: 20px;
+}
+
+.first-section span {
+    color: orangered;
+}
+
+.second-section h1 {
+    font-size: 3.5rem;
+}
+
+.second-section span {
+    color: rgb(9, 24, 71);
+}
+h2 {
+    margin: 20px;
+}
+
+.first-left-side p {
+    margin: 20px;
+    font-size: 1.4rem;
+}
+
+.btn {
+    margin: 20px;
+    padding: 13px 35px;
+    border-radius: 5px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.btn1 {
+    margin-top: 20px;
+    padding: 13px 35px;
+    border-radius: 5px;
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: red;
+}
+
+.second-section {
+    margin: 10%;
+}
+
+.second-section > h1 {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.second-container > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+.second-container > div p {
+    font-size: 1.2rem;
+}
+
+.second-left-side {
+    background-color: #88c0d0;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.second-middle-side {
+    background-color: #81a1c1;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.second-right-side {
+    background-color: #5e81ac;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.illus1 {
+    width: 60%;
+}
+
+.illus2 {
+    width: 60%;
+}
+
+.illus3 {
+    width: 60%;
+}
+
+.third-section {
+    margin: 10%;
+}
+
+.third-container {
+    display: flex;
+}
+
+.third-left-side {
+    width: 50%;
+}
+
+.third-right-side {
+    width: 50%;
+
+}
+
+.third-left-side > img {
+    width: 100%;
+    padding-right: 150px;
+}
+
+.third-right-side > h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.third-right-side > p {
+    font-size: 1.4rem;
+}
+
+.fourth-section {
+    margin: 10%;
+}
+
+.fourth-container {
+    display: flex;
+}
+
+.fourth-right-side {
+    width: 50%;
+}
+
+.fourth-left-side {
+    width: 50%;
+}
+
+.fourth-right-side > img {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.fourth-left-side > h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.fourth-left-side > p {
+    font-size: 1.4rem;
+}
+
+.fifth-section {
+    margin: 10%;
+}
+
+.fifth-container {
+    display: flex;
+}
+
+.fifth-left-side {
+    width: 50%;
+}
+
+.fifth-right-side {
+    width: 50%;
+
+}
+
+.fifth-left-side > img {
+    width: 100%;
+    padding-right: 150px;
+}
+
+.fifth-right-side > h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.fifth-right-side > p {
+    font-size: 1.4rem;
+}
+
+.footer-section {
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    padding: 4% 10%;
+}
+
+.footer-section > h1 {
+    font-size: 2.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
